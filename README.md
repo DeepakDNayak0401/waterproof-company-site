@@ -1,6 +1,3 @@
-Here is a professional `README.md` file for the project. You should save this file in the root directory of your project folder (`waterproofing-site/README.md`).
-
-````markdown
 # ShieldRoof Waterproofing Website
 
 A high-performance, accessible, and responsive single-page website designed for a professional waterproofing company. Built with HTML5, Tailwind CSS, and Vanilla JavaScript.
@@ -9,13 +6,13 @@ A high-performance, accessible, and responsive single-page website designed for 
 
 - **🎨 Modern UI/UX:** Bold design with high-contrast colors (Safety Orange & Deep Blue) for a professional industrial look.
 - **🌙 Dark/Light Mode:** Fully functional theme toggle that respects user system preferences and saves choices locally.
-- **♿ Accessibility (A11y) Compliant:**
+- **♿ Accessibility (A11y) Compliant:** 
   - WCAG 2.1 AA standards.
   - Skip-to-content links.
   - High visibility focus states for keyboard navigation.
   - Reduced motion support for vestibular disorders.
   - Semantic HTML5 structure.
-- **🌍 Global Compliance:**
+- **🌍 Global Compliance:** 
   - GDPR/CCPA Cookie Consent Banner.
   - Legal placeholder links (Privacy Policy, Terms).
 - **📱 Fully Responsive:** Optimized for Mobile, Tablet, and Desktop views.
@@ -42,8 +39,6 @@ waterproofing-site/
         ├── project1.jpg      # Portfolio images
         ├── project2.jpg
         └── project3.jpg
-```
-````
 
 ## 🚀 Getting Started
 
