@@ -1,0 +1,75 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+/* Base Settings */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Accessibility: High Visibility Focus States */
+/* This ensures keyboard users can clearly see where they are */
+*:focus-visible {
+    outline: 3px solid #f97316;
+    /* Tailwind accent-500 */
+    outline-offset: 2px;
+}
+
+/* Skip Link Styling */
+.skip-link {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background-color: #f97316;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    z-index: 50;
+    transform: translateY(-200%);
+    transition: transform 0.2s;
+    font-weight: bold;
+}
+
+.skip-link:focus {
+    transform: translateY(0);
+}
+
+/* Accessibility: Reduced Motion */
+/* Respects user system settings for motion sensitivity */
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+
+    .animate-bounce {
+        animation: none;
+    }
+}
+
+/* Custom Scrollbar for Webkit */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.dark ::-webkit-scrollbar-track {
+    background: #111827;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #0ea5e9;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #0284c7;
+}
